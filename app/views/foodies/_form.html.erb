@@ -1,0 +1,32 @@
+<%= form_for(foody) do |f| %>
+  <% if foody.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(foody.errors.count, "error") %> prohibited this foody from being saved:</h2>
+
+      <ul>
+      <% foody.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :content %>
+    <%= f.text_area :content %>
+  </div>
+
+  <div class="field">
+    <%= f.label :image_url %>
+    <%= f.text_field :image_url %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
