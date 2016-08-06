@@ -16,4 +16,4 @@ foodies4 = Foodie.create( { name: "Mainely Fish",	content: " 6 (3 ounce) fillets
 
 
 foodies5 = Foodie.create( { name: "Too Much Chocolate Cake", content: " 1 (18.25 ounce) paar.",	image_url: "http://images.media-allrecipes.com/userphotos/720x405/1130307.jpg" } )
-foodies6 = Foodie.create( { name: "Lemon Ricotta Pancakes with Blueberry Sauce", 	content:" 2 tablee griddle and cook unter side. Ry sauce.", image_url: "http://images.media-allrecipes.com/userphotos/720x405/1538703.jpg" } )
+foodies7 = Foodie.create( { name: "Lemon Ricotta Pancakes with Blueberry Sauce", 	content:" 2 tablee griddle and cook unter side. Ry sauce.", image_url: "http://images.media-allrecipes.com/userphotos/720x405/1538703.jpg" } )
